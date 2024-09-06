@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+   <div class="mainbody">
+    <div class="header">
+        <!-- <p>My Pet Shop Website</p> -->
+    </div>
+    <div class="center">
+        <div class="left">
+            <ul>
+                <li id="mycat"><b><i>Category</i></b></li>
+                <li><button onclick="filterdata('dog')">Dogs</button></li>
+                <li><button onclick="filterdata('cat')">Cats</button></li>
+                <li><button onclick="filterdata('parrot')">Parrots</button></li>
+                <li><button onclick="filterdata('rabbit')">Rabbits</button></li>
+            </ul>
+            <ul>
+                <li id="mycat"><b><i>Sub-Category Pets</i></b></li>
+                <li><button onclick="filterdata('puppy')">Puppy</button></li>
+                <li><button onclick="filterdata('german shepherd')">German Shepherd</button></li>
+                <li><button onclick="filterdata('labrador')">Labrador</button></li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="prow" id="myrow">
+
+            </div>
+        </div>
+    </div>
+   </div>
+    <script src="js/result.js"></script>
+</body>
+</html>
